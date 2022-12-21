@@ -550,8 +550,19 @@ function distinct(arr) {
  */
 function group(/* array, keySelector, valueSelector */) {
   throw new Error('Not implemented');
-}
 
+  // const x = new Map();
+  // return x.set(array.map((elem) => elem.keySelector, array.valueSelector));
+}
+// const ke = array.map((elem) => Object.values(elem));
+// const newArr = [];
+// ke.map((elem) => {
+//   if (elem[0] === keySelector) {
+//     newArr.push(elem[1]);
+//   }
+//   return newArr;
+// });
+// return newArr;
 
 /**
  * Projects each element of the specified array to a sequence
